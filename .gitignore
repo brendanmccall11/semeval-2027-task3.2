@@ -1,0 +1,28 @@
+# data, models and run outputs (shared through Drive, not GitHub)
+work/
+outputs/
+data/
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+adapter*/
+checkpoint*/
+*.zip
+*.tgz
+
+# secrets
+.env
+*.key
+*token*
+
+# python and notebooks
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.venv/
+.ipynb_checkpoints/
+
+# system
+.DS_Store
