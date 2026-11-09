@@ -1,0 +1,12 @@
+dataset,metric,original_gemma,gemma_lora,notes
+SV competition dev,mean per-word F1 (nested CV),0.6782,0.7043,official format
+EN WiC-TSV dev,pooled F1,0.8708,0.8815,cutoffs 9.0 / -0.25
+EN WiC-TSV dev,AUC,0.9097,0.9339,
+RU AXOLOTL-derived,pooled F1,0.8676,0.8757,cutoffs 9.0 / -0.25
+RU AXOLOTL-derived,AUC,0.9219,0.9475,
+IT XL-WSD-derived,pooled F1,0.7718,0.7448,cutoffs 10.5 / 0.25
+IT XL-WSD-derived,AUC,0.8615,0.8702,
+ES XL-WSD-derived,pooled F1,0.7040,0.6968,cutoffs 10.5 / 0.25
+ES XL-WSD-derived,AUC,0.8043,0.8262,
+NL XL-WSD-derived,pooled F1,0.6900,0.6944,cutoffs 10.5 / 0.25
+NL XL-WSD-derived,AUC,0.7812,0.8051,

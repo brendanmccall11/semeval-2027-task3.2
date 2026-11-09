@@ -1,0 +1,21 @@
+{
+  "status": "previous primary system, kept as fallback",
+  "model_id": "google/gemma-4-31B-it",
+  "model_revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+  "dtype": "bfloat16",
+  "thinking": false,
+  "system_prompt": "You are an expert lexicographer of historical Swedish.",
+  "user_prompt_template": "Target word (lemma): {word}\\nSense definition (Swedish): {definition}\\nSentence from {year}: {marked_text}\\n\\nDoes the word marked with <t> and </t> in the sentence express the sense given by the definition? Answer only Yes or No.",
+  "score": "logit(Yes) - logit(No) at the first generated position",
+  "decision_rule": "predict 1 if score >= threshold",
+  "final_threshold": 10.5,
+  "final_threshold_source": "all 10 Swedish dev words, same grid and tie-break as nested CV",
+  "in_sample_f1_at_final_threshold": 0.6853499389960754,
+  "honest_estimate_nested_cv_f1": 0.6782392862783919,
+  "nested_cv_ci": [
+    0.5357994566404845,
+    0.8184798741468207
+  ],
+  "seconds_per_1000_usages_a100_batch2": 89.21458412052445,
+  "source_scores_sha256": "208c5c555ccfc631e45e6ccb0a98ac5a55934b51c86620d3bc8942da4b9abc17"
+}

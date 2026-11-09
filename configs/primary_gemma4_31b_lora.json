@@ -1,0 +1,14 @@
+{
+  "status": "PRIMARY: adopted by the pre-registered rule (adoption_decision.json on Drive)",
+  "model_id": "google/gemma-4-31B-it",
+  "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+  "adapter_location": "Drive: outputs/runs/step09_lora_full_pilot/20261105T232211Z_6b04a51b/checkpoint_0532/adapter",
+  "adapter_sha256": "6f3d236ac50e07cce8a5cccfaaf31aad557f028392ec009d46320415f991bad8",
+  "final_threshold": 0.25,
+  "threshold_rule": "single cutoff fitted on all 10 Swedish dev words, predeclared grid, ties -> lower cutoff",
+  "prompt": "v1, unchanged (language-templated system + user message)",
+  "scoring": "bf16 base + fp32 LoRA, bf16 autocast, batch 2, left padding, logits_to_keep=1, margin = logit(Yes) - logit(No)",
+  "swedish_nested_cv_f1": 0.7043057610118044,
+  "swedish_original_f1": 0.6782392862783919,
+  "previous_primary": "configs/provisional_primary_gemma4_31b.json"
+}
