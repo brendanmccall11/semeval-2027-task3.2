@@ -1,0 +1,20 @@
+dataset,metric,system,value,notes
+SV competition dev,macro-F1 (nested CV),Gemma no training,0.6818,official format
+SV competition dev,macro-F1 (nested CV),seed 2027 (round 1),0.7529,backup submission
+SV competition dev,macro-F1 (nested CV),single model mean of 5 seeds,0.7486,std 0.0192
+SV competition dev,macro-F1 (nested CV),average of 3 seeds,0.7664,
+SV competition dev,macro-F1 (nested CV),average of 5 seeds,0.7789,main submission
+SV competition dev,macro-F1 (nested CV),round 2 more languages,0.7124,rejected
+SV competition dev,macro-F1 (nested CV),option A Swedish dev training,0.7351,rejected
+SV competition dev,macro-F1 (nested CV),Qwen3-32B alone,0.6558,
+SV competition dev,macro-F1 (nested CV),Qwen3-32B + average of 3,0.7380,rejected
+EN WiC-TSV dev,pooled macro-F1,average of 5 seeds,0.8817,cutoff 1.00
+EN WiC-TSV dev,AUC,average of 5 seeds,0.9351,
+RU AXOLOTL-derived,pooled macro-F1,average of 5 seeds,0.8727,cutoff 1.00
+RU AXOLOTL-derived,AUC,average of 5 seeds,0.9502,
+IT XL-WSD-derived,pooled macro-F1,average of 5 seeds,0.7235,cutoff 1.00
+IT XL-WSD-derived,AUC,average of 5 seeds,0.8756,
+ES XL-WSD-derived,pooled macro-F1,average of 5 seeds,0.6866,cutoff 1.00
+ES XL-WSD-derived,AUC,average of 5 seeds,0.8254,
+NL XL-WSD-derived,pooled macro-F1,average of 5 seeds,0.6907,cutoff 1.00
+NL XL-WSD-derived,AUC,average of 5 seeds,0.8065,
